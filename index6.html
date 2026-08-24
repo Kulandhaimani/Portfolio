@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #before::before{
+            content:"😊😍"
+        }
+        #after::after{
+            content:"💕👍"
+        }
+        #first-letter::first-letter{
+            font-size:2em;
+            color:red;
+            background-color: bisque;
+        }
+        #first-line::first-line{
+            color:blue;
+            font-style:italic;
+        }
+        #delection::selection{
+            background-color: yellow;
+        }
+        input::placeholder{
+            font-style: italic;
+            color:aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo element</h1>
+    <p id="before">This is BEFORE example</p>
+    <p id="after">This is AFTER example</p>
+    <p id="first-letter">This FIRST LETTER example</p>
+    <p id="first-line">This is FIRST LINE example. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem praesentium optio ad blanditiis reiciendis, libero dolore quod fugiat laborum odit omnis officia nisi illo placeat velit veritatis quaerat facere deserunt? Facere atque ex hic dolores blanditiis, repellat velit sapiente veritatis temporibus nostrum cum. Quisquam minus autem eos cum, reprehenderit nihil eligendi perspiciatis dolor doloribus, deleniti accusamus quae, sapiente optio quibusdam corrupti mollitia asperiores veniam. Aperiam, repellendus. Eaque adipisci, voluptas consequatur asperiores illo praesentium neque error cumque repellendus in perspiciatis, doloribus sequi? Adipisci, ratione? Voluptates ex quidem, vitae sapiente vero dicta pariatur eius, commodi, ullam voluptatem expedita est itaque hic. Ex.</p>
+    <p id="selection">This is IMPORTANT text</p>
+    <input type="text" placeholder="Enter your name">
+</body>
+</html>

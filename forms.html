@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Forms</h1>
+        <h2>Login form</h2>
+        <form methods="get" enctype="multipart/form.data">
+            <p>
+                <label> Username :</label><input type="text" placeholder="Enter your username" name="username" value="admin" size="10" maxlength="20">
+            </p>
+              <p>
+                <label> Password :</label><input type="password" placeholder="Enter your password" name="password" size="10" maxlength="10">
+            </p>
+            <p><label>Comments:</label><textarea type="text" placeholder="Enter your comments..." name="comments" cols="25"rows="5"></textarea>
+            </p>
+            <p>
+            <label> I want to learn first:</label><br>
+            <input type="radio" name="learnfirst" id="html" value="html" checked><label for="html">HTML</label>
+            <input type="radio" name="learnfirst" id="css" value="css" checked><label for="css">CSS</label>
+            <input type="radio" name="learnfirst" id="javascript" value="javascript" checked><label for="javascript">Javascript</label>
+            </p>
+            <p>
+                My hobbies are:<br>
+                <input type="checkbox" name="hobbies[]" value="Reading">Reading
+                <input type="checkbox" name="hobbies[]" value="Composing">Composing
+                 <input type="checkbox" name="hobbies[]" value="Painting">Painting
+                  <input type="checkbox" name="hobbies[]" value="Writing">Writing
+                   <input type="checkbox" name="hobbies[]" value="Dancing">Dancing
+            </p>
+            <p>
+                Select your date of birth:<br>
+                <select name="date">
+                    <option value="">select</option>
+                      <option value="1">1</option>
+                        <option value="2">2</option>
+                          <option value="3">3</option>
+                            <option value="4">4</option>
+                              <option value="5">5</option>
+                                <option value="6">6</option>
+                                  <option value="7">7</option>
+                                    <option value="8">8</option>
+                                      <option value="9">9</option>
+                                      <option value="10">10</option>
+                                       <option value="11">11</option>
+                                        <option value="12">12</option>
+                                         <option value="13">13</option>
+                                          <option value="14">14</option>
+                                           <option value="15">15</option>
+                                            <option value="16">16</option>
+                                             <option value="17">17</option>
+                                              <option value="18">18</option>
+                                               <option value="19">19</option>
+                                                <option value="20">20</option>
+                                                 <option value="21">21</option>
+                                                  <option value="22">22</option>
+                                                   <option value="23">23</option>
+                                                    <option value="24">24</option>
+                                                     <option value="25">25</option>
+                                                      <option value="26">26</option>
+                                                       <option value="27">27</option>
+                                                        <option value="28">28</option>
+                                                         <option value="29">29</option>
+                                                          <option value="30">30</option>
+                                                           <option value="31">31</option>
+                </select>
+                <br><br>
+                Select your date of month:<br>
+                <select name="month">
+                  <option value="">select</option>
+                  <option value="January">January</option>
+                  <option value="Febuary">Febuary</option>
+                  <option value="March">March</option>
+                  <option value="April">April</option>
+                  <option value="May">May</option>
+                  <option value="June">June</option>
+                  <option value="July">July</option>
+                  <option value="August">August</option>
+                  <option value="September">September</option>
+                  <option value="October">October</option>
+                  <option value="November">November</option>
+                  <option value="December">December</option>
+                </select>
+
+            </p>
+            <p>
+              Resume:<br>
+              <input type="file" name="resume">
+            </p>
+            <input type="submit" name="submit" value="Login1 ">
+        </form>
+    </body>
